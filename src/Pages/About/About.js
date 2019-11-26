@@ -3,11 +3,7 @@ import "./About.style.scss";
 export default function About() {
   return (
     <div className="content">
-      <div className="title">
-        <h1>Robin Singh</h1>
-
-        <h3>Software Developer </h3>
-      </div>
+    
 
       <div className="experienceContainer">
         <div className="card">

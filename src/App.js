@@ -1,47 +1,25 @@
-import React from "react";
+import React from 'react';
+import About from './Pages/About/About';
+import Nav from './Components/Navigation/Nav';
 
-import "./App.css";
-import About from "./Components/About/About";
-import Nav from "./Components/Navigation/Nav";
-import Contact from "./Components/ContactMe/About";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import FortNite from "./Components/FortNite/Fortnite";
+import './App.css';
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className='App'>
         <Nav />
         <Switch>
-          <Route path="/" exact>
-            {Home}
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route path="/fortnite">
-            <FortNite />
+          <Route path='/' exact>
+            <Home />
           </Route>
         </Switch>
       </div>
     </Router>
   );
 }
-
-const Home = () => {
-  return (
-    <div>
-      <h1>Home</h1>
-    </div>
-  );
-};
 
 export default App;

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 25%;
+    h3 {
+      font-weight: 250;
+    }
+
+    .buttons {
+      .button {
+        margin: 5px;
+      }
+    }
+  }
+}

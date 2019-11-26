@@ -1,7 +1,8 @@
 import React from "react";
 import "./Nav.css";
 import { Paper, Tabs, Tab } from "@material-ui/core";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from 
+"react-router-dom";
 
 export default function Nav() {
   return (
@@ -18,9 +19,7 @@ export default function Nav() {
         <Link to="/contact">
           <li>Contact Me</li>
         </Link>
-        <Link to="/fortnite">
-          <li>FortNite</li>
-        </Link>
+       
       </ul>
     </nav>
   );
