@@ -11,7 +11,8 @@ function Home() {
         <h1>Robin Singh</h1>
         <h3>Software Developer </h3>
         <div className='buttons'>
-          <Button
+        <Link to="/about" >
+        <Button
             variant='contained'
             color='secondary'
             className='button'
@@ -19,6 +20,9 @@ function Home() {
           >
             About Me
           </Button>
+        </Link>
+          
+          <Link to="/portfolio">
           <Button
             variant='contained'
             color='primary'
@@ -27,6 +31,8 @@ function Home() {
           >
             Projects
           </Button>
+          </Link>
+       
         </div>
       </div>
     </div>
