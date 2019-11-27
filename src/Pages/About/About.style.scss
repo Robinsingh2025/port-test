@@ -1,3 +1,28 @@
-*{
-    font-family: 'Alatsi', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+
+  .section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 80%;
+
+    h1 {
+      font-size: 35px;
+      font-weight: 500;
+      width: 60%;
+    }
+
+    p {
+      font-size: 25px;
+      font-weight: 300;
+      width: 80%;
+    }
+  }
 }
