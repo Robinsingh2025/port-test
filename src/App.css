@@ -1,9 +1,7 @@
-
-body{
-    font-family: 'Alatsi', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-li{
-    
-text-decoration: none;
-    color: black;
+li {
+  text-decoration: none;
+  color: black;
 }
